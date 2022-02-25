@@ -2,39 +2,48 @@
 <html>
 <head>
 <style>
-table, th, td {
-  border: 1px solid black;
+
+
+th, td {
+  text-align: left;
+  padding: auto;
+  border: 3px solid yellow;
+ 
+}
+
+
+
+th {
+  background-color: white;
+  color: black;
 }
 </style>
 </head>
 <body>
 
-<h2>Table With Border</h2>
+  <table style="width:20%">
+    <tr>
+      <th style="width:30%">1</th>
+      <th style="width: 70%">2</th>
+     
+    </tr>
 
-<p>Use the CSS border property to add a border to the table.</p>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
-</table>
+    <tr>
+      <td rowspan="3">3</td>
+    </tr>
+
+    <tr>
+      <th>4</th>
+      <th>5</th>
+    </tr>
+    
+  
+  
+  
+  
+    </table>
+
 
 </body>
 </html>
